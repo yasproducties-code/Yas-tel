@@ -1,0 +1,351 @@
+
+########## SHEET: Template_Config  (xl/worksheets/sheet12.xml, hidden) ##########
+dimension: ?
+sheetFormatPr: {'customHeight': '1', 'defaultColWidth': '12.63', 'defaultRowHeight': '15.75'}
+cols:
+    {'customWidth': '1', 'min': '1', 'max': '1', 'width': '18.38'}
+    {'customWidth': '1', 'min': '2', 'max': '2', 'width': '69.13'}
+    {'customWidth': '1', 'min': '3', 'max': '3', 'width': '70.0'}
+    {'customWidth': '1', 'min': '4', 'max': '26', 'width': '7.63'}
+R1 : A1='key' | B1='value' | C1='notes'
+R2 : A2='crewcall_row' | B2='14' | C2='rij met Crewcall'
+R3 : A3='opbouw_activity_row' | B3='15' | C3='voorbeeldrij opbouw activiteit'
+R4 : A4='shooting_call_row' | B4='17' | C4='rij met Shooting call'
+R5 : A5='strip_header_row' | B5='18' | C5='Tijd (min) / Van / Tot / Notes / ...'
+R6 : A6='scene_header_row' | B6='19' | C6='donkerblauwe scene header'
+R7 : A7='marker_row' | B7='20' | C7='zalmroze 0-min rij (kind call/wrap, Sluis wordt geopend)'
+R8 : A8='setup_row' | B8='21' | C8='witte setup rij'
+R9 : A9='special_row' | B9='29' | C9='zalmroze blokrij met minuten (VOORBEREIDING, EXTRA BLOK, blocking)'
+R10 : A10='lunch_row' | B10='25' | C10='donkerrode blokrij - ALLEEN de lunch'
+R11 : A11='est_wrap_row' | B11='26' | C11='roze est. wrap rij, tijden donkerrood'
+R12 : A12='sub_row' | B12='29' | C12='zalmroze rij met minuten (Ombouw, Omkleden, Sluis wordt gesloten)'
+R13 : A13='wrap_row' | B13='41' | C13='donkerrode WRAP rij'
+R14 : A14='footer_row' | B14='42' | C14='WRAP WRAP WRAP afsluitrij'
+R15 : A15='closing_row' | B15='43' | C15='zwarte onderrand'
+R16 : A16='helper_column' | B16='14' | C16='verborgen N kolom (was M - template met 1 kolom verbreed voor DD2)'
+R17 : A17='hide_unused_columns' | B17='TRUE' | C17='verbergt lege kolommen rechts van de laatste outputkolom (kolom L op DD1/DD3/DD5)'
+R18 : A18='output_columns' | B18='notes, nr, soort, movement, beschrijving, time_of_day, acteurs' | C18='DD1/DD5 - 7 kolommen, E t/m K'
+R19 : A19='output_columns_dd2' | B19='notes, nr, camera, soort, movement, beschrijving, time_of_day, sluis, acteurs' | C19='DD2 - 9 kolommen, E t/m M'
+R20 : A20='output_columns_dd3' | B20='notes, nr, soort, movement, beschrijving, time_of_day, sluis, acteurs' | C20='DD3 - 8 kolommen, E t/m L'
+R21 : A21='output_columns_dd4' | B21='notes, nr, soort, movement, beschrijving, time_of_day, sluis, acteurs' | C21='DD4 - 8 kolommen, E t/m L'
+R22 : A22='selected_day' | B22='DD2' | C22='optioneel, fallback als je zonder dayId runt'
+R23 : A23='luza_uren_cel' | B23='J12' | C23='label LENGTE DRAAIDAG LUZA op J11'
+R24 : A24='heuvelaar_uren_cel' | B24='F12' | C24='label LENGTE DRAAIDAG HEUVELAAR op F11'
+R25 : A25='daglabel_cel' | B25='F2' | C25='cel met "DD#x | datum" in de kop'
+R26 : A26='tijdrange_kolom_dd2' | B26='camera' | C26='scenetijden op DD2 in de camerakolom (soort botst daar met synopsis)'
+
+########## SHEET: Day_Info  (xl/worksheets/sheet11.xml, hidden) ##########
+dimension: ?
+sheetFormatPr: {'customHeight': '1', 'defaultColWidth': '12.63', 'defaultRowHeight': '15.75'}
+cols:
+    {'customWidth': '1', 'min': '1', 'max': '1', 'width': '5.25'}
+    {'customWidth': '1', 'min': '2', 'max': '2', 'width': '9.63'}
+    {'customWidth': '1', 'min': '3', 'max': '3', 'width': '19.25'}
+    {'customWidth': '1', 'min': '4', 'max': '4', 'width': '12.25'}
+    {'customWidth': '1', 'min': '5', 'max': '5', 'width': '9.63'}
+    {'customWidth': '1', 'min': '6', 'max': '6', 'width': '17.5'}
+    {'customWidth': '1', 'min': '7', 'max': '7', 'width': '22.75'}
+    {'customWidth': '1', 'min': '8', 'max': '8', 'width': '14.0'}
+    {'customWidth': '1', 'min': '9', 'max': '9', 'width': '12.25'}
+    {'customWidth': '1', 'min': '10', 'max': '10', 'width': '26.25'}
+    {'customWidth': '1', 'min': '11', 'max': '11', 'width': '10.5'}
+    {'customWidth': '1', 'min': '12', 'max': '12', 'width': '11.38'}
+    {'customWidth': '1', 'min': '13', 'max': '13', 'width': '8.75'}
+    {'customWidth': '1', 'min': '14', 'max': '26', 'width': '7.63'}
+R1 : A1='day' | B1='datum' | C1='titel' | D1='regisseur' | E1='dop' | F1='first_ad' | G1='scenes' | H1='cast' | I1='locatie' | J1='adres' | K1='shooting_call' | L1='opbouw_minuten' | M1='crew_call' | N1='pre_call' | O1='adres_url'
+R2 : A2='DD1' | B2='46233.0' | C2='LUZA KAN ALLES ZELF' | D2='Susanne Hagen' | E2='Jesse Post' | F2='Yassin van Veenendaal' | G2='1, 3.1, 3.2, 6, 9C, 18, 17.1' | H2='Luza, Heuvelaar' | I2='Eemnessersluis' | J2='Eemnessersluis - 3755 PK, Eemnes' | K2='0.4895833333333333' | L2='60.0' | M2='0.4479166666666667' | N2='0.4166666666666667' | O2='https://www.google.com/maps/place/Eemnessersluis/@52.2477749,5.3028575,17z/data=!3m1!4b1!4m6!3m5!1s0x47c63f8c7626dcf9:0x59656d6564fc5c19!8m2!3d52.2477749!4d5.3028575!16s%2Fg%2F11dyl6w8m?entry=ttu&g_ep=EgoyMDI2MDcwNi4wIKXMDSoASAFQAw%3D%3D'
+R3 : A3='DD2' | B3='46234.0' | C3='LUZA KAN ALLES ZELF' | D3='Susanne Hagen' | E3='Jesse Post' | F3='Yassin van Veenendaal' | G3='10, 17.1/2' | H3='Luza, Heuvelaar' | I3='Eemnessersluis' | J3='Eemnessersluis - 3755 PK, Eemnes' | K3='0.65625' | L3='75.0' | M3='0.6145833333333334' | N3='0.5416666666666666' | O3='https://www.google.com/maps/place/Eemnessersluis/@52.2477749,5.3028575,17z/data=!3m1!4b1!4m6!3m5!1s0x47c63f8c7626dcf9:0x59656d6564fc5c19!8m2!3d52.2477749!4d5.3028575!16s%2Fg%2F11dyl6w8m?entry=ttu&g_ep=EgoyMDI2MDcwNi4wIKXMDSoASAFQAw%3D%3D'
+R4 : A4='DD3' | B4='46236.0' | C4='LUZA KAN ALLES ZELF' | D4='Susanne Hagen' | E4='Jesse Post' | F4='Yassin van Veenendaal' | G4='8, 9E, 11.1, 11.2, 5, 10' | H4='Luza, Heuvelaar' | I4='Eemnessersluis' | J4='Eemnessersluis - 3755 PK, Eemnes' | K4='0.4791666666666667' | L4='105.0' | M4='0.4270833333333333' | N4='0.3958333333333333' | O4='https://www.google.com/maps/place/Eemnessersluis/@52.2477749,5.3028575,17z/data=!3m1!4b1!4m6!3m5!1s0x47c63f8c7626dcf9:0x59656d6564fc5c19!8m2!3d52.2477749!4d5.3028575!16s%2Fg%2F11dyl6w8m?entry=ttu&g_ep=EgoyMDI2MDcwNi4wIKXMDSoASAFQAw%3D%3D'
+R5 : A5='DD4' | B5='46237.0' | C5='LUZA KAN ALLES ZELF' | D5='Susanne Hagen' | E5='Jesse Post' | F5='Yassin van Veenendaal' | G5='9D, 7, 13, 14, 17' | H5='Luza, Heuvelaar' | I5='Eemnessersluis' | J5='Eemnessersluis - 3755 PK, Eemnes' | K5='0.5972222222222222' | L5='100.0' | M5='0.5555555555555556' | N5='0.5' | O5='https://www.google.com/maps/place/Eemnessersluis/@52.2477749,5.3028575,17z/data=!3m1!4b1!4m6!3m5!1s0x47c63f8c7626dcf9:0x59656d6564fc5c19!8m2!3d52.2477749!4d5.3028575!16s%2Fg%2F11dyl6w8m?entry=ttu&g_ep=EgoyMDI2MDcwNi4wIKXMDSoASAFQAw%3D%3D'
+R6 : A6='DD5' | B6='46238.0' | C6='LUZA KAN ALLES ZELF' | D6='Susanne Hagen' | E6='Jesse Post' | F6='Yassin van Veenendaal' | G6='9A, 9B, 9C, 2, 1A' | H6='Luza, Heuvelaar' | I6='Eemnessersluis' | J6='Eemnessersluis - 3755 PK, Eemnes' | K6='0.5416666666666666' | L6='30.0' | M6='0.5' | N6='0.4583333333333333' | O6='https://www.google.com/maps/place/Eemnessersluis/@52.2477749,5.3028575,17z/data=!3m1!4b1!4m6!3m5!1s0x47c63f8c7626dcf9:0x59656d6564fc5c19!8m2!3d52.2477749!4d5.3028575!16s%2Fg%2F11dyl6w8m?entry=ttu&g_ep=EgoyMDI2MDcwNi4wIKXMDSoASAFQAw%3D%3D'
+--- HYPERLINKS ---
+<ns0:hyperlinks xmlns:ns0="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:ns1="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><ns0:hyperlink ns1:id="rId1" ref="O2" /><ns0:hyperlink ns1:id="rId2" ref="O3" /><ns0:hyperlink ns1:id="rId3" ref="O4" /><ns0:hyperlink ns1:id="rId4" ref="O5" /><ns0:hyperlink ns1:id="rId5" ref="O6" /></ns0:hyperlinks>
+
+########## SHEET: Opbouw_Input  (xl/worksheets/sheet7.xml, hidden) ##########
+dimension: ?
+sheetFormatPr: {'customHeight': '1', 'defaultColWidth': '12.63', 'defaultRowHeight': '15.75'}
+cols:
+    {'customWidth': '1', 'min': '1', 'max': '1', 'width': '5.25'}
+    {'customWidth': '1', 'min': '2', 'max': '3', 'width': '7.0'}
+    {'customWidth': '1', 'min': '4', 'max': '4', 'width': '66.5'}
+    {'customWidth': '1', 'min': '5', 'max': '26', 'width': '7.63'}
+R1 : A1='day' | B1='van' | C1='tot' | D1='activiteit'
+R2 : A2='DD1' | B2='0.4166666666666667' | C2='0.4895833333333333' | D2='Pre-call art/cam/licht 10:00 (D4N opbouw)'
+R3 : A3='DD2' | B3='0.5416666666666666' | C3='0.65625' | D3='Pre-call art/cam/licht 13:00 uur Licht: opbouw lichtrig scène 17'
+R4 : A4='DD3' | B4='0.3958333333333333' | C4='0.4791666666666667' | D4='Pre-call licht/art 09:30 uur'
+R5 : A5='DD4' | B5='0.5' | C5='0.5972222222222222' | D5='Pre-call art 12:00, pre-call licht 12:30 uur - lichtrig scène 17'
+R6 : A6='DD5' | B6='0.4583333333333333' | C6='0.5416666666666666' | D6='Pre-call art 11:00 uur, licht 12:00 uur (opbouw D4n + art - 9c)'
+
+########## SHEET: Day_Blocks  (xl/worksheets/sheet9.xml, hidden) ##########
+dimension: ?
+sheetFormatPr: {'customHeight': '1', 'defaultColWidth': '12.63', 'defaultRowHeight': '15.75'}
+cols:
+    {'customWidth': '1', 'min': '1', 'max': '1', 'width': '5.25'}
+    {'customWidth': '1', 'min': '2', 'max': '2', 'width': '7.0'}
+    {'customWidth': '1', 'min': '3', 'max': '3', 'width': '8.75'}
+    {'customWidth': '1', 'min': '4', 'max': '4', 'width': '35.0'}
+    {'customWidth': '1', 'min': '5', 'max': '5', 'width': '26.25'}
+    {'customWidth': '1', 'min': '6', 'max': '6', 'width': '40.25'}
+    {'customWidth': '1', 'min': '7', 'max': '7', 'width': '6.13'}
+    {'customWidth': '1', 'min': '8', 'max': '8', 'width': '14.0'}
+    {'customWidth': '1', 'min': '9', 'max': '9', 'width': '3.5'}
+    {'customWidth': '1', 'min': '10', 'max': '26', 'width': '7.63'}
+R1 : A1='day' | B1='block_id' | C1='kind' | D1='titel_1' | E1='titel_2' | F1='titel_3' | G1='duur_minuten' | H1='acteurs' | I1='tijdrange' | J1='call_tijd' | K1='klu_minuten' | L1='synopsis'
+R2 : A2='DD1' | B2='b95' | C2='scene' | D2='Scene 17.1/18 - shot 95\nINT/NIGHT MACHINEKAMER (D4N)' | G2='30.0' | I2='x' | L2='Insert Wolkentor, D4N (crew-only)'
+R3 : A3='DD1' | C3='kind_call' | D3='Call Luza 12:00 uur - 13:00 uur | 60 min kl/mu' | G3='0.0' | H3='Luza' | J3='0.5'
+R4 : A4='DD1' | B4='b61' | C4='scene' | D4='Scene 9C - shot 61\nINT/NIGHT MACHINEKAMER (D4N)\ncrew-only' | G4='15.0' | I4='x' | L4='Insert lichtjes (D4N, crew-only)'
+R5 : A5='DD1' | C5='sub' | D5='Lichtombouw D4N naar dag + scène 1 zetten en doorlopen zonder acteurs (30 mins ipv 60)' | G5='30.0'
+R6 : A6='DD1' | C6='kind_call' | D6='Call Heuvelaar | 60 min kl/mu' | G6='0.0' | H6='Heuvelaar' | J6='0.5416666666666666'
+R7 : A7='DD1' | B7='s1' | C7='scene' | D7='Scene 1\nINT/DAY MACHINEKAMER' | G7='60.0' | I7='x' | L7='De wekkers gaan af; Luza maakt zich klaar en maakt een sjaaltje af.'
+R8 : A8='DD1' | B8='s31' | C8='scene' | D8='Scene 3.1/3.2\nINT/DAY MACHINEKAMER' | G8='50.0' | I8='x' | L8='3.1: Luza en Heuvelaar zweren de eed en wisselen rietpluim en vacht uit.\n3.2: Terug uit het visioen; Heuvelaar verheugt zich op het eerste sluisseizoen.'
+R9 : A9='DD1' | C9='lunch' | D9='LUNCH' | G9='45.0'
+R10 : A10='DD1' | B10='s31b' | C10='scene' | D10='Scene 3.1/3.2 (vervolg)\nINT/DAY MACHINEKAMER\n\nOpen vuur - brandwacht' | G10='85.0' | I10='x' | L10='3.1: Luza en Heuvelaar zweren de eed en wisselen rietpluim en vacht uit.\n3.2: Terug uit het visioen; Heuvelaar verheugt zich op het eerste sluisseizoen."                                                '
+R11 : A11='DD1' | C11='sub' | D11='Blocking choreografie scene 6\nCirkels krijten' | G11='25.0'
+R12 : A12='DD1' | B12='s6' | C12='scene' | D12='Scene 6\nINT/DAY MACHINEKAMER\n\nSOUND EN DANS (+dialoog)? --> meeting ingepland' | G12='95.0' | I12='x' | L12='Luza en Heuvelaar repeteren de dans: Luza leert hen de dans en verbetert hun passen.'
+R13 : A13='DD1' | B13='s6h' | C13='scene' | D13='Scene 6 - Heuvelaar only\nINT/DAY MACHINEKAMER' | G13='60.0' | I13='x' | L13='Luza en Heuvelaar repeteren de dans: Luza leert hen de dans en verbetert hun passen.'
+R14 : A14='DD1' | C14='wrap' | D14='WRAP' | G14='0.0'
+R15 : A15='DD1' | C15='kind_wrap' | D15='Wrap Heuvelaar' | G15='0.0' | H15='Heuvelaar' | J15='0.8333333333333334'
+R16 : A16='DD2' | C16='kind_call' | D16='Call Luza | 60 min kl/mu' | G16='0.0' | H16='Luza' | J16='0.6458333333333334'
+R17 : A17='DD2' | B17='s74' | C17='scene' | D17='Scene 10 - shot 74\nEXT/DAY BIJ DE SLUIS\ncrew-only ' | G17='30.0' | I17='x' | L17='Luza probeert de sluis alleen te openen met een rieten pop; het mislukt en Wolkentor kermt.'
+R18 : A18='DD2' | B18='s67' | C18='scene' | D18='Scene 10 - shot 67\nEXT/DAY BIJ DE SLUIS\ncrew-only ' | G18='15.0' | I18='x' | L18='Luza probeert de sluis alleen te openen met een rieten pop; het mislukt en Wolkentor kermt.'
+R19 : A19='DD2' | B19='s10' | C19='scene' | D19='Scene 10\nEXT/DAY BIJ DE SLUIS\n' | G19='105.0' | I19='x' | L19='Luza probeert de sluis alleen te openen met een rieten pop; het mislukt en Wolkentor kermt.'
+R20 : A20='DD2' | C20='lunch' | D20='LUNCH - art drest kade versiering' | G20='45.0'
+R21 : A21='DD2' | C21='sub' | D21='Blocking & repetitie - hele scene doorlopen + choreo\nLichtopbouw?' | G21='60.0'
+R22 : A22='DD2' | B22='17s2' | C22='scene' | D22='Scene 17 setup 2\nEXT/DIM BIJ DE SLUIS' | G22='30.0' | I22='x'
+R23 : A23='DD2' | B23='17s6' | C23='scene' | D23='Scene 17 setup 6\nEXT/DIM BIJ DE SLUIS' | G23='30.0' | I23='x'
+R24 : A24='DD2' | B24='17s3' | C24='scene' | D24='Scene 17 setup 3\nEXT/DIM BIJ DE SLUIS' | G24='0.0' | I24='x'
+R25 : A25='DD2' | B25='17s31' | C25='scene' | D25='Scene 17 setup 3.1\nEXT/DIM BIJ DE SLUIS' | G25='30.0' | I25='x'
+R26 : A26='DD2' | B26='17s1' | C26='scene' | D26='Scene 17 setup 1\nEXT/DIM BIJ DE SLUIS' | G26='30.0' | I26='x'
+R27 : A27='DD2' | B27='17s5' | C27='scene' | D27='Scene 17 setup 5\nEXT/DIM BIJ DE SLUIS' | G27='30.0' | I27='x'
+R28 : A28='DD2' | C28='marker' | D28='Sluis wordt geopend' | G28='0.0'
+R29 : A29='DD2' | B29='17s4' | C29='scene' | D29='Scene 17 setup 4\nEXT/DIM BIJ DE SLUIS' | G29='0.0' | I29='x'
+R30 : A30='DD2' | C30='kind_wrap' | D30='Wrap Luza' | G30='0.0' | H30='Luza' | J30='0.9375'
+R31 : A31='DD2' | C31='kind_wrap' | D31='Wrap Heuvelaar' | G31='0.0' | H31='Heuvelaar' | J31='0.9375'
+R32 : A32='DD2' | C32='sub' | D32='Crew wrap - 23:00 uur!' | G32='30.0'
+R33 : A33='DD2' | C33='wrap' | D33='WRAP' | G33='0.0'
+R34 : A34='DD3' | C34='kind_call' | D34='Call Luza | 60 min kl/mu' | G34='0.0' | H34='Luza' | J34='0.4375'
+R35 : A35='DD3' | B35='s8' | C35='scene' | D35='Scene 8\nINT/DAY MACHINEKAMER' | G35='60.0' | I35='x' | L35='Luza hangt de vieze vlag aan de waslijn; Wolkentor keurt haar reactie af.'
+R36 : A36='DD3' | B36='s9e' | C36='scene' | D36='Scene 9E\nINT/DAY MACHINEKAMER' | G36='45.0' | I36='x' | L36='Montage: Luza bindt rietbundels tot pop'
+R37 : A37='DD3' | C37='sub' | D37='Wolkentor & Algenblad levend > dood' | G37='15.0'
+R38 : A38='DD3' | B38='s111' | C38='scene' | D38='Scene 11.1\nINT/DAY MACHINEKAMER\nWolkentor: dood\n\nOpen vuur - brandwacht' | G38='55.0' | I38='x' | L38='Licht knippert, algen sterven'
+R39 : A39='DD3' | C39='kind_call' | D39='Call Heuvelaar | luncht mee' | G39='0.0' | H39='Heuvelaar' | J39='0.6006944444444444' | K39='0.0'
+R40 : A40='DD3' | C40='lunch' | D40='LUNCH - kade dressen sc5' | G40='45.0'
+R41 : A41='DD3' | C41='sub' | D41='METEEN na lunch\nKL/MU Heuvelaar | 60 min' | G41='0.0' | I41='14:55-15:55'
+R42 : A42='DD3' | B42='s112' | C42='scene' | D42='Scene 11.2\nINT/DAY MACHINEKAMER' | G42='45.0' | I42='x' | L42='Luza begint nieuwe pop maar stopt'
+R43 : A43='DD3' | C43='sub' | D43='Move naar buiten' | G43='20.0'
+R44 : A44='DD3' | B44='s5' | C44='scene' | D44='Scene 5\nEXT/DAY BIJ DE SLUISDEUREN\n' | G44='75.0' | I44='x' | L44='Bij de sluisdeuren leert Luza Heuvelaar de visserslus knopen; gesprek over de wind.'
+R45 : A45='DD3' | B45='s5i25' | C45='scene' | D45='Scene 5 - shot 25\nEXT/DAY BIJ DE SLUISDEUREN\ncrew-only' | G45='20.0' | I45='x' | L45='Lasso shot (crew-only)'
+R46 : A46='DD3' | B46='s10i68' | C46='scene' | D46='Scene 10 - shot 67\nEXT/DAY BIJ DE SLUIS\ncrew-only' | G46='30.0' | I46='x' | L46='Insert water in de sluis (crew-only)'
+R47 : A47='DD3' | C47='sub' | D47='SHOT 79 scene 11): Tegenshot in de rug van Wolkentor, zonder Luza eventueel pick-up' | G47='20.0'
+R48 : A48='DD3' | C48='wrap' | D48='WRAP' | G48='0.0'
+R49 : A49='DD4' | C49='kind_call' | D49='Call Luza | 60 min kl/mu' | G49='0.0' | H49='Luza' | J49='0.5694444444444444'
+R50 : A50='DD4' | C50='kind_call' | D50='Call Heuvelaar | 60 min kl/mu' | G50='0.0' | H50='Heuvelaar' | J50='0.5798611111111112'
+R51 : A51='DD4' | B51='s62' | C51='scene' | D51='Scene 9D - shot 62\nEXT/DAY BIJ DE SLUIS\ntijdens Luza make-up l' | G51='20.0' | I51='x' | L51='Insert vlag gehesen (zonder cast, tijdens laatste 20 min make-up)'
+R52 : A52='DD4' | B52='s9d' | C52='scene' | D52='Scene 9D\nEXT/DAY BIJ DE SLUIS' | G52='15.0' | I52='x' | L52='Montage: Luza hangt de nieuwe vlag op'
+R53 : A53='DD4' | B53='s7' | C53='scene' | D53='Scene 7\nEXT/DAY BIJ DE SLUIS\nplannen nav verf en danssteen\n' | G53='150.0' | I53='x' | L53='7.1: Luza geeft Heuvelaar een instructieblad; ieder werkt aan hun eigen danssteen.\n7.2 Even later stoot Heuvelaar de verf om; Luza pakt de vieze vlag af en Heuvelaar rent weg.'
+R54 : A54='DD4' | C54='lunch' | D54='LUNCH' | G54='45.0'
+R55 : A55='DD4' | B55='s13' | C55='scene' | D55='Scene 13\nEXT/DAY BIJ DE SLUISDEUREN' | G55='60.0' | I55='x' | L55='Luza ligt in het gras en roept Heuvelaars naam het landschap in.'
+R56 : A56='DD4' | C56='sub' | D56='Move' | G56='20.0'
+R57 : A57='DD4' | B57='s14' | C57='scene' | D57='Scene 14\nEXT/LAGE ZON IN HET RIET\n\nwegknippen brandnetels!' | G57='70.0' | I57='x' | L57='In het riet maakt Heuvelaar een poppetje en Luza vraagt hen mee te komen.'
+R58 : A58='DD4' | C58='kind_wrap' | D58='Wrap Luza' | G58='0.0' | H58='Luza' | J58='0.8611111111111112'
+R59 : A59='DD4' | C59='kind_wrap' | D59='Wrap Heuvelaar' | G59='0.0' | H59='Heuvelaar' | J59='0.8611111111111112'
+R60 : A60='DD4' | C60='sub' | D60='Company move riet -> sluis' | G60='20.0'
+R61 : A61='DD4' | C61='sub' | D61='Opbouw (+ uitlichten?) shot 94' | G61='25.0'
+R62 : A62='DD4' | B62='s94' | C62='scene' | D62='Scene 17.1/2 - 17.1s94\nEXT/DIM BIJ DE SLUISDEUREN\ncrew-only' | G62='20.0' | I62='x' | L62='pov L&H over de rand'
+R63 : A63='DD4' | B63='s107' | C63='scene' | D63='Scene 17.1/2 - 17s107\nEXT/DIM BIJ DE SLUISDEUREN\ncrew-only' | G63='15.0' | I63='x' | L63='Insert op water'
+R64 : A64='DD4' | C64='sub' | D64='Sluis wordt geopend' | G64='10.0'
+R65 : A65='DD4' | B65='s96' | C65='scene' | D65='Scene 17.1/2 - 17.2s96\nEXT/DIM BIJ DE SLUISDEUREN\ncrew-only' | G65='20.0' | I65='x' | L65='Insert sluisdeuren, sluis gaat open'
+R66 : A66='DD4' | C66='wrap' | D66='WRAP' | G66='0.0'
+R67 : A67='DD5' | C67='sub' | D67='CREW-ONLY PICK-UP BLOK (zonder cast)' | G67='90.0'
+R68 : A68='DD5' | C68='kind_call' | D68='Call Luza | 60 min kl/mu' | G68='0.0' | H68='Luza' | J68='0.5833333333333334'
+R69 : A69='DD5' | C69='sub' | D69='Prep scene 9A' | G69='30.0'
+R70 : A70='DD5' | B70='s9a' | C70='scene' | D70='Scene 9A\nEXT/DAY BIJ DE SLUIS' | G70='30.0' | I70='x' | L70='Montage: Luza schrobt verfvlek van de kade'
+R71 : A71='DD5' | B71='s9b' | C71='scene' | D71='Scene 9B\nEXT/DAY BIJ DE SLUIS' | G71='45.0' | I71='x' | L71='Montage: Luza knoopt aan railing'
+R72 : A72='DD5' | C72='sub' | D72='Move naar machinekamer' | G72='20.0'
+R73 : A73='DD5' | C73='kind_call' | D73='Call Heuvelaar | 60 min kl/mu' | G73='0.0' | H73='Heuvelaar' | J73='0.6875'
+R74 : A74='DD5' | B74='s9c' | C74='scene' | D74='Scene 9C\nINT/NIGHT MACHINEKAMER (D4N)\nD4N vooraf gebouwd' | G74='40.0' | I74='x' | L74='Montage: nachts verft Luza bij kaarslicht'
+R75 : A75='DD5' | C75='sub' | D75='Buffer' | G75='15.0'
+R76 : A76='DD5' | C76='lunch' | D76='LUNCH' | G76='45.0'
+R77 : A77='DD5' | C77='sub' | D77='Move naar riet\nkade wordt tijdens deze scene leeggehaald voor 1A\n\nconti: geen vacht en rietpluim' | G77='20.0'
+R78 : A78='DD5' | B78='s2' | C78='scene' | D78='Scene 2\nEXT/DAY IN HET RIET\n' | G78='85.0' | I78='x' | L78='Luza wacht tot Heuvelaar uit ei kruipt'
+R79 : A79='DD5' | C79='kind_wrap' | D79='Wrap Heuvelaar' | G79='0.0' | H79='Heuvelaar' | J79='0.8333333333333334'
+R80 : A80='DD5' | C80='sub' | D80='Move naar sluis\nLuza krijgt weer vacht' | G80='20.0'
+R81 : A81='DD5' | B81='s1a' | C81='scene' | D81='Scene 1A\nEXT/DAY BIJ DE SLUIS\nlege kade\n' | G81='40.0' | I81='x' | L81='Luza rent het sluishuis uit'
+R82 : A82='DD5' | C82='wrap' | D82='WRAP' | G82='0.0'
+R83 : A83='DD5' | C83='marker' | D83="Art afbouw (PA's helpen mee tot 22:00 uur)\n" | G83='0.0' | I83='21:00-23:00'
+R84 : A84='DD5' | C84='kind_wrap' | D84='Wrap Luza' | G84='0.0' | H84='Luza' | J84='0.875'
+
+########## SHEET: Decoupage_Input  (xl/worksheets/sheet10.xml, hidden) ##########
+dimension: ?
+sheetFormatPr: {'customHeight': '1', 'defaultColWidth': '12.63', 'defaultRowHeight': '15.75'}
+cols:
+    {'customWidth': '1', 'min': '1', 'max': '1', 'width': '5.25'}
+    {'customWidth': '1', 'min': '2', 'max': '2', 'width': '7.0'}
+    {'customWidth': '1', 'min': '3', 'max': '3', 'width': '7.88'}
+    {'customWidth': '1', 'min': '4', 'max': '4', 'width': '6.13'}
+    {'customWidth': '1', 'min': '5', 'max': '5', 'width': '14.0'}
+    {'customWidth': '1', 'min': '6', 'max': '6', 'width': '4.38'}
+    {'customWidth': '1', 'min': '7', 'max': '7', 'width': '8.75'}
+    {'customWidth': '1', 'min': '8', 'max': '8', 'width': '13.13'}
+    {'customWidth': '1', 'min': '9', 'max': '9', 'width': '43.75'}
+    {'customWidth': '1', 'min': '10', 'max': '10', 'width': '6.13'}
+    {'customWidth': '1', 'min': '11', 'max': '11', 'width': '7.88'}
+    {'customWidth': '1', 'min': '12', 'max': '12', 'width': '9.63'}
+    {'customWidth': '1', 'min': '13', 'max': '13', 'width': '7.88'}
+    {'customWidth': '1', 'min': '14', 'max': '14', 'width': '7.0'}
+    {'customWidth': '1', 'min': '15', 'max': '15', 'width': '8.75'}
+    {'customWidth': '1', 'min': '16', 'max': '16', 'width': '7.88'}
+    {'customWidth': '1', 'min': '17', 'max': '17', 'width': '7.0'}
+    {'customWidth': '1', 'min': '18', 'max': '18', 'width': '14.0'}
+    {'customWidth': '1', 'min': '19', 'max': '26', 'width': '7.63'}
+R1 : A1='day' | B1='block_id' | C1='strip_kind' | D1='minuten' | E1='notes' | F1='nr' | G1='soort' | H1='movement' | I1='beschrijving' | J1='angle' | K1='time_of_day' | L1='locatie' | M1='camera' | N1='lighting' | O1='art_props' | P1='styling_makeup' | Q1='reference' | R1='acteurs' | S1='sluis' | T1='call_tijd' | U1='buiten_blok_range'
+R2 : A2='DD1' | B2='b95' | D2='30.0' | E2='D4N' | F2='95.0' | G2='MC' | H2='Slider' | I2='insert wolkentor (push in/out, voor meerdere momenten in de scene)' | K2='NIGHT' | R2='geen cast'
+R3 : A3='DD1' | B3='b61' | D3='15.0' | E3='\nVFX' | F3='61.0' | G3='CU' | H3='statief' | I3='insert lichtjes' | K3='NIGHT' | R3='geen cast'
+R4 : A4='DD1' | B4='s1' | D4='30.0' | F4='1.0' | G4='CU > MC' | H4='Slider' | I4='Tracking: Introductie ruimte, Luza fixt haar haren en knipt sjaaltje\n' | K4='DAY' | R4='Luza'
+R5 : A5='DD1' | B5='s1' | D5='30.0' | F5='2.0' | G5='CU' | H5='statief' | I5='(Insert sjaaltje)' | K5='DAY' | R5='Luza'
+R6 : A6='DD1' | B6='s31' | D6='30.0' | E6='3.1 / 3.2' | F6='11.0' | G6='W' | H6='Statief' | I6='wide machinekamer' | K6='DAY' | R6='Luza, Heuvelaar'
+R7 : A7='DD1' | B7='s31' | D7='20.0' | E7='3.1 / 3.2' | F7='12.0' | G7='MW' | H7='DOLLY push out/slider?' | I7='Two shot / ots luza en heuvelaar op wolkentor' | K7='DAY' | R7='Luza, Heuvelaar'
+R8 : A8='DD1' | B8='s31b' | D8='30.0' | E8='3.1 / 3.2' | F8='14.0' | G8='MC' | H8='Slider' | I8='OTS Luza' | K8='DAY' | R8='Luza, Heuvelaar'
+R9 : A9='DD1' | B9='s31b' | D9='20.0' | E9='3.1 / 3.2' | F9='16.0' | G9='MC' | H9='slider' | I9='OTS Heuvelaar' | K9='DAY' | R9='Luza, Heuvelaar'
+R10 : A10='DD1' | B10='s31b' | D10='20.0' | E10='3.1 / 3.2' | F10='15.0' | G10='MC' | H10='Slider' | I10='Single Heuvelaar - over de as\noptioneel:slider naar en proil' | K10='DAY' | R10='Luza, Heuvelaar'
+R11 : A11='DD1' | B11='s31b' | D11='15.0' | E11='3.1 / 3.2\n(buffer)' | F11='13.0' | G11='M' | H11='slider' | I11='Single Luza - over de as' | K11='DAY' | R11='Luza, Heuvelaar'
+R12 : A12='DD1' | B12='s6' | D12='45.0' | F12='39.0' | G12='MC' | H12='STEADICAM' | I12='Luza danst, steadicam long take' | K12='DAY' | R12='Luza, Heuvelaar'
+R13 : A13='DD1' | B13='s6' | D13='30.0' | F13='40.0' | G13='MC' | I13='MC tegenshot op Heuvelaar' | K13='DAY' | R13='Luza, Heuvelaar'
+R14 : A14='DD1' | B14='s6' | D14='0.0' | E14='(buffer: optioneel)\nliever niet, maar als nodig skippable' | F14='35.0' | G14='MC' | H14='statief' | I14='wide twoshot' | K14='DAY' | R14='Luza, Heuvelaar'
+R15 : A15='DD1' | B15='s6' | D15='20.0' | E15='Slow mo + normale frame rate' | F15='34.0' | G15='MC' | H15='statief' | I15='POV Heuvelaar op Luza' | K15='DAY' | R15='Luza, Heuvelaar'
+R16 : A16='DD1' | B16='s6' | D16='0.0' | E16='(buffer 2: minder belangrijk)' | F16='37.0' | I16='insert voeten Luza'
+R17 : A17='DD1' | B17='s6h' | C17='kind_wrap' | D17='0.0' | E17='Wrap Luza' | R17='Luza' | T17='0.7916666666666666'
+R18 : A18='DD1' | B18='s6h' | D18='30.0' | E18='Slow mo + normale frame rate \n' | F18='33.0' | G18='MC' | H18='statief' | I18='POV LUZA op Heuvelaar' | K18='DAY' | R18='Heuvelaar'
+R19 : A19='DD1' | B19='s6h' | D19='30.0' | F19='38.0' | G19='CU' | H19='statief' | I19='Insert voeten Heuvelaar' | K19='DAY' | R19='Heuvelaar'
+R20 : A20='DD2' | B20='s74' | D20='30.0' | E20='DEZE EERST' | F20='74.0' | G20='MC' | H20='statief' | I20='POV luza 360 shot probeert de pop een draai te laten maken' | R20='geen cast'
+R21 : A21='DD2' | B21='s67' | D21='15.0' | E21='eventueel pick-up DD' | F21='67.0' | G21='MC' | H21='statief' | I21="Shot op water: 'onzichtbaar beestje'" | R21='geen cast'
+R22 : A22='DD2' | B22='s10' | D22='30.0' | F22='71.0' | G22='M' | H22='statief' | I22='Single Luza vanaf overkant' | K22='SUNNY' | M22='A' | R22='Luza'
+R23 : A23='DD2' | B23='s10' | D23='0.0' | F23='70.0' | G23='CU' | H23='statief' | I23='Insert steen Heuvelaar aan hun kant' | K23='SUNNY' | M23='B' | R23='Luza'
+R24 : A24='DD2' | B24='s10' | D24='30.0' | F24='72.0' | G24='CU' | H24='statief' | I24='Insert steen luza aan haar kant' | K24='SUNNY' | M24='A' | R24='Luza'
+R25 : A25='DD2' | B25='s10' | D25='0.0' | F25='69.0' | G25='CU' | H25='statief' | I25='Single op Luza - Touwtrek shot' | K25='SUNNY' | M25='B' | R25='Luza'
+R26 : A26='DD2' | B26='s10' | D26='30.0' | F26='73.0' | G26='W' | H26='statief' | I26='Wide - hele scene vanaf brug' | K26='SUNNY' | M26='A' | R26='Luza'
+R27 : A27='DD2' | B27='s10' | C27='kind_call' | D27='0.0' | E27='Call Heuvelaar | 60 min kl/mu' | R27='Heuvelaar' | T27='0.71875'
+R28 : A28='DD2' | B28='s10' | D28='15.0' | F28='66.0' | G28='MC' | H28='statief' | I28='En profil shot' | K28='SUNNY' | M28='A' | R28='Luza'
+R29 : A29='DD2' | B29='17s2' | D29='30.0' | E29='17.1/2? alle shots' | F29='97.0' | G29='MC' | H29='statief' | I29='single luza in de rug' | K29='DAG' | M29='A' | R29='Luza' | S29='DICHT'
+R30 : A30='DD2' | B30='17s2' | D30='0.0' | F30='98.0' | G30='MC' | H30='statief' | I30='single luza en profil - tijdens oogcontact' | K30='DAG' | M30='B' | R30='Luza' | S30='DICHT'
+R31 : A31='DD2' | B31='17s6' | D31='30.0' | F31='100.0' | G31='MC' | H31='statief' | I31='single heuvelaar en profil - tijdens oogcontact' | K31='GOUDEN UUR' | M31='A' | R31='Luza, Heuvelaar' | S31='DICHT'
+R32 : A32='DD2' | B32='17s6' | D32='0.0' | E32='\n' | F32='106.0' | G32='CU' | H32='statief' | I32='insert steen heuvelaar' | K32='TOT ZONSONDERGANG' | M32='B' | R32='Heuvelaar' | S32='gaat open'
+R33 : A33='DD2' | B33='17s3' | C33='marker' | D33='0.0' | E33='OPTIONEEL' | F33='99.0' | G33='MC' | H33='statief' | I33='single heuvelaar in de rug' | K33='GOUDEN UUR' | M33='A' | R33='Heuvelaar' | S33='DICHT'
+R34 : A34='DD2' | B34='17s31' | D34='30.0' | F34='101.0' | G34='MW' | H34='statief' | I34='ots luza richting heuvelaar' | K34='GOUDEN UUR' | M34='B' | R34='Luza, Heuvelaar' | S34='DICHT'
+R35 : A35='DD2' | B35='17s31' | D35='0.0' | F35='105.0' | G35='CU' | H35='statief' | I35='insert steen luza' | K35='TOT ZONSONDERGANG' | M35='A' | R35='Luza' | S35='DICHT > OPEN'
+R36 : A36='DD2' | B36='17s1' | D36='30.0' | E36='VFX?\n(Buffer)' | F36='93.0' | G36='M' | H36='Steadicam' | I36='we rennen met de kids richting de sluis, heuvelaar kijkt over de rand' | K36='DAG' | M36='A' | R36='Luza, Heuvelaar' | S36='DICHT'
+R37 : A37='DD2' | B37='17s5' | D37='30.0' | E37='Schemer\nWordt dit uitgelicht?\n\nIETS VOOR DE SCHEMER' | F37='104.0' | G37='MC' | H37='statief\nKikvors' | I37='twoshot luza en heuvelaar frontaal' | K37='SCHEMER BLUE HOUR' | M37='A' | R37='Luza, Heuvelaar' | S37='OPEN'
+R38 : A38='DD2' | B38='17s5' | D38='0.0' | E38='Schemer' | F38='103.0' | G38='MW' | H38='statief' | I38='twoshot luza en heuvelaar in de rug' | K38='SCHEMER DIEPSTE BLAUW' | M38='B' | R38='Luza, Heuvelaar' | S38='OPEN'
+R39 : A39='DD2' | B39='17s4' | D39='0.0' | E39='optioneel (buffer)\nkan dit qua licht nog?\ndit shot staat als laatst: optioneel\nals de sluis hier echt open moet zijn, wordt het verwisseld met de inserts (inserts worden dan optioneel)' | F39='102.0' | G39='W' | H39='statief' | I39='wideshot lichtjes reveal met L&H op danssteen' | K39='SCHEMER RAND VAN DONKER' | M39='A' | R39='Luza, Heuvelaar' | S39='OPEN/DICHT?'
+R40 : A40='DD3' | B40='s8' | D40='40.0' | E40='Wolkentor in beeld' | F40='52.0' | G40='MC' | H40='Slider' | I40='tracking shot hele scene: Luza komt binnen, loopt naar de vlag, rommelt in de werkbank; pakt iets van werkbank en loopt door' | K40='DAY' | R40='Luza'
+R41 : A41='DD3' | B41='s8' | D41='0.0' | F41='53.0' | G41='GEKILLD'
+R42 : A42='DD3' | B42='s8' | D42='20.0' | F42='54.0' | G42='MW' | H42='Statief' | I42='close-up pot in de beweging' | K42='DAY' | R42='Luza'
+R43 : A43='DD3' | B43='s9e' | D43='45.0' | F43='65.0' | G43='MW' | H43='statief' | I43='Topshot van luza die de pop in elkaar zet' | K43='DAY' | R43='Luza'
+R44 : A44='DD3' | B44='s111' | D44='30.0' | E44='Ergens in deze scene van rechts naar links naar de werkbank lopen | deze tijd is hier wel veel\n\nFohn' | F44='75.0' | G44='MW' | H44='Slider' | I44='11.1/11.2 langzame push in, luza vraagt aan wolkentor wat er aan de hand is' | K44='DAY' | R44='Luza'
+R45 : A45='DD3' | B45='s111' | D45='25.0' | F45='76.0' | G45='MC' | H45='statief' | I45='Ots single op Wolkentor' | K45='DAY' | R45='Luza'
+R46 : A46='DD3' | B46='s112' | D46='5.0' | E46='(EVENTUEEL MOVEN ZONDER LUZA)' | F46='79.0' | H46='statief' | I46='Tegenshot in de rug van Wolkentor, zonder Luza' | K46='DAY' | R46='geen cast'
+R47 : A47='DD3' | B47='s112' | D47='20.0' | E47='voor punchline alleen' | F47='80.0' | G47='MC' | H47='statief' | I47='single luza op de rug aan de werkbank' | K47='DAY' | R47='Luza'
+R48 : A48='DD3' | B48='s112' | C48='shot' | D48='20.0' | H48='statief' | I48='11.2 - Wide werkbank' | K48='DAY'
+R49 : A49='DD3' | B49='s5' | D49='25.0' | F49='26.0' | G49='M' | H49='Slider' | I49='Single Heuvelaar > vogel Luza' | K49='DAY' | R49='Luza, Heuvelaar'
+R50 : A50='DD3' | B50='s5' | D50='20.0' | F50='27.0' | G50='M' | H50='Slider' | I50='single luza > Kikvors Heuvelaar > Two shot' | K50='DAY' | R50='Luza, Heuvelaar'
+R51 : A51='DD3' | B51='s5' | D51='30.0' | E51='vanaf de brug' | F51='30.0' | G51='W' | H51='statief' | I51='wide overkant richting luza en heuvelaar' | K51='DAY' | R51='Luza, Heuvelaar'
+R52 : A52='DD3' | B52='s5i25' | C52='kind_wrap' | D52='0.0' | E52='Wrap Luza' | R52='Luza' | T52='0.7291666666666666'
+R53 : A53='DD3' | B53='s5i25' | C53='kind_wrap' | D53='0.0' | E53='Wrap Heuvelaar' | R53='Heuvelaar' | T53='0.7291666666666666'
+R54 : A54='DD3' | B54='s5i25' | D54='20.0' | F54='25.0' | G54='CU' | H54='statief' | I54='insert touw lasso om de reling' | K54='DAY' | R54='geen cast' | S54='DICHT'
+R55 : A55='DD3' | B55='s10i68' | D55='30.0' | E55='Eventuele optie voor gemist op DD#2' | F55='67.0' | G55='CU' | H55='digitale zoom?' | I55="Shot op water: 'onzichtbaar beestje'" | R55='geen cast' | S55='DICHT'
+R56 : A56='DD4' | B56='s62' | D56='20.0' | E56='Bladblazer' | F56='62.0' | G56='CU' | H56='statief' | I56='insert vlag die in beeld gehesen wordt' | K56='SUNNY' | R56='geen cast'
+R57 : A57='DD4' | B57='s9d' | D57='15.0' | F57='63.0' | G57='W' | H57='statief' | I57='wide luza die de vlag hijst' | K57='SUNNY' | R57='Luza'
+R58 : A58='DD4' | B58='s7' | D58='30.0' | E58='7.1 en 7.2 \nwel danssteen: geschilderd\nin 7.1 uithouden\n\nwater valt om: 7.2 kan je de rest niet meer gebruiken?\nYOGHURT?' | F58='44.0' | G58='W> CU' | H58='Statief' | I58='Wide / two-shot, wordt CU Luza door mis en scene (pan)' | K58='DAY' | R58='Luza, Heuvelaar' | S58='2.0'
+R59 : A59='DD4' | B59='s7' | C59='shot' | D59='10.0' | E59='WISSEL DANSSTEEN\nWISSEL MINIMAAL'
+R60 : A60='DD4' | B60='s7' | D60='20.0' | E60='7.1 \ndanssteen ja: ongeschilderd' | F60='41.0' | G60='CU > M' | H60='Statief' | I60='Insert op blad + tilt naar single Luza' | K60='DAY' | R60='Luza, Heuvelaar' | S60='3.0'
+R61 : A61='DD4' | B61='s7' | D61='20.0' | E61='7.1 \nwel danssteen, ongeschilderd\n' | F61='43.0' | G61='M' | H61='Statief' | I61='Topshot steen Heuvelaar: vanaf begin, incl. verf valt om en Luza komt het schoonmaken ' | K61='DAY' | R61='Luza, Heuvelaar' | S61='4.0'
+R62 : A62='DD4' | B62='s7' | C62='shot' | D62='10.0' | E62='WISSEL DANSSTEEN'
+R63 : A63='DD4' | B63='s7' | D63='10.0' | E63=' 7.2\nwel danssteen, geschilderd\nverf valt om ' | F63='43.1' | G63='M' | H63='Statief' | I63='Topshot steen Heuvelaar: vanaf begin, incl. verf valt om en Luza komt het schoonmaken ' | K63='DAY' | R63='Luza, Heuvelaar' | S63='4.0'
+R64 : A64='DD4' | B64='s7' | D64='20.0' | E64='7.2\nwel danssteen: geschilderd\nVerf valt om ' | F64='45.0' | G64='CU' | H64='statief' | I64='CU op kwast en verf valt om' | K64='DAY' | R64='Luza, Heuvelaar' | S64='1.0'
+R65 : A65='DD4' | B65='s7' | D65='20.0' | E65='7.1/7.2\ngeen danssteen, geschilderd' | F65='47.0' | G65='M' | H65='statief' | I65='Heuvelaar tegenshot' | K65='DAY' | R65='Heuvelaar' | S65='5.0'
+R66 : A66='DD4' | B66='s7' | D66='10.0' | E66='7.2\ngeen danssteen' | F66='42.0' | G66='M' | H66='Statief' | I66='Heuvelaar tegenshot op rug' | K66='DAY' | R66='Luza, Heuvelaar' | S66='6.0'
+R67 : A67='DD4' | B67='s7' | D67='0.0' | E67='7.1 & 7.2\ngeen danssteen' | F67='46.0' | G67='M' | H67='statief\nkikvors' | I67='Single Luza aan de tafel' | K67='DAY' | R67='Luza' | S67='7.0'
+R68 : A68='DD4' | B68='s13' | D68='30.0' | E68='Rechts naar links vs links naar rechts' | F68='85.0' | G68='M' | H68='statief' | I68='topshot luza ligt in het gras' | K68='DAY' | R68='Luza'
+R69 : A69='DD4' | B69='s13' | D69='15.0' | E69='optioneel' | F69='86.0' | G69='M' | H69='statief' | I69='en profil luza ligt in t gras' | K69='DAY' | R69='Luza'
+R70 : A70='DD4' | B70='s13' | D70='15.0' | F70='87.0' | G70='MC' | H70='statief' | I70='single luza denkt na en roept heuvelaar' | K70='DAY' | R70='Luza'
+R71 : A71='DD4' | B71='s13' | D71='0.0' | E71='Evt een wijd met Luza erin of POV | optioneel zonder cast\ncrewonly optioneel (evt schuiven naar DD5)' | F71='88.0' | G71='CU' | H71='statief' | I71='insert op het riet en wilgen' | K71='DAY' | R71='Luza'
+R72 : A72='DD4' | B72='s14' | D72='25.0' | F72='89.0' | G72='MW' | H72='statief' | I72='shot op heuvelaar, luza komt rechts inlopen (little miss sunshine ref)' | K72='LAGE ZON' | R72='Luza, Heuvelaar'
+R73 : A73='DD4' | B73='s14' | D73='20.0' | E73='ZONDER LUZA als het echt moet' | F73='90.0' | G73='M' | H73='DOLLY push-in' | I73='single heuvelaar' | K73='LAGE ZON' | R73='Heuvelaar'
+R74 : A74='DD4' | B74='s14' | D74='15.0' | F74='91.0' | G74='MC' | H74='statief' | I74='single luza' | K74='LAGE ZON' | R74='Luza'
+R75 : A75='DD4' | B75='s14' | D75='10.0' | E75='ZONDER LUZA!' | F75='92.0' | G75='CU' | H75='statief' | I75='insert poppetje' | K75='LAGE ZON' | R75='Heuvelaar'
+R76 : A76='DD4' | B76='s94' | D76='20.0' | E76='schemer 21:30-22:15' | F76='94.0' | G76='MW' | H76='Steadicam' | I76='pov L&H we kijken over de rand van de sluis en revealen de lichtjes' | K76='SCHEMER' | R76='geen cast' | S76='DICHT'
+R77 : A77='DD4' | B77='s107' | D77='15.0' | E77='VFX?' | F77='107.0' | G77='CU' | H77='statief' | I77='insert shot op water, lichtjes komen het beeld in drijven' | K77='SCHEMER' | R77='geen cast' | S77='NVT'
+R78 : A78='DD4' | B78='s96' | D78='20.0' | F78='96.0' | G78='CU' | H78='statief' | I78='insert sluisdeuren, je hoort de sluis kraken en gieren' | R78='geen cast' | S78='gaat open'
+R79 : A79='DD5' | B79='s9a' | D79='30.0' | E79='Bij danssteen draaien: daarna reset naar andere plek' | F79='55.0' | G79='MC' | H79='statief' | I79='luza gooit een emmer water met sop over de verf' | K79='SUNNY' | R79='Luza'
+R80 : A80='DD5' | B80='s9b' | D80='25.0' | F80='56.0' | G80='MW' | H80='statief' | I80='luza knoopt een knoop aan de railing getrokken shot' | K80='SUNNY' | R80='Luza'
+R81 : A81='DD5' | B81='s9b' | D81='20.0' | F81='57.0' | G81='CU' | H81='statief' | I81='insert knoop jumpcut verschillende knopen' | K81='SUNNY' | R81='Luza'
+R82 : A82='DD5' | B82='s9c' | D82='20.0' | E82='open vuur' | F82='58.0' | G82='M' | H82='statief' | I82='MC van achter: luza staat voor de vlag, ze meet met haar duim en gaat verven' | K82='NIGHT' | R82='Luza'
+R83 : A83='DD5' | B83='s9c' | D83='20.0' | F83='59.0' | G83='MC' | H83='statief' | I83='En profile Luza' | K83='NIGHT' | R83='Luza'
+R84 : A84='DD5' | B84='s9c' | C84='shot' | D84='0.0'
+R85 : A85='DD5' | B85='s2' | D85='30.0' | E85='Clean plate: iemand in het riet, riet schudden ' | F85='7.0' | G85='W' | H85='statief' | I85='luza staat op het heuveltje te wachten' | K85='SUNNY' | R85='Luza, Heuvelaar'
+R86 : A86='DD5' | B86='s2' | D86='25.0' | F86='8.0' | G86='MW' | H86='DOLLY push in' | I86='ots luza op riet wat beweegt, heuvelaar komt tevoorschijn' | K86='SUNNY' | R86='Luza, Heuvelaar'
+R87 : A87='DD5' | B87='s2' | D87='20.0' | E87='rechts in beeld' | F87='9.0' | G87='MC' | H87='DOLLY' | I87='medium close luza' | K87='SUNNY' | R87='Luza'
+R88 : A88='DD5' | B88='s2' | D88='10.0' | F88='10.0' | G88='MC' | H88='DOLLY tracking' | I88='medium close heuvelaar' | K88='SUNNY' | R88='Heuvelaar'
+R89 : A89='DD5' | B89='s1a' | D89='40.0' | F89='5.0' | G89='W' | H89='statief lichtstatief' | I89='Wide shot luza rent over de sluis richting het heggetje' | K89='DAY' | R89='Luza'
+
+########## SHEET: Draaiplanning_Template  (xl/worksheets/sheet8.xml, hidden) ##########
+dimension: ?
+sheetFormatPr: {'customHeight': '1', 'defaultColWidth': '12.63', 'defaultRowHeight': '15.75'}
+cols:
+    {'customWidth': '1', 'min': '1', 'max': '1', 'width': '1.38'}
+    {'customWidth': '1', 'min': '2', 'max': '2', 'width': '7.88'}
+    {'customWidth': '1', 'min': '3', 'max': '4', 'width': '7.38'}
+    {'customWidth': '1', 'min': '5', 'max': '5', 'width': '29.75'}
+    {'customWidth': '1', 'min': '6', 'max': '6', 'width': '4.88'}
+    {'customWidth': '1', 'min': '7', 'max': '7', 'width': '11.75'}
+    {'customWidth': '1', 'min': '8', 'max': '8', 'width': '12.25'}
+    {'customWidth': '1', 'min': '9', 'max': '9', 'width': '14.88'}
+    {'customWidth': '1', 'min': '10', 'max': '10', 'width': '10.25'}
+    {'customWidth': '1', 'min': '11', 'max': '11', 'width': '28.88'}
+    {'customWidth': '1', 'min': '12', 'max': '14', 'width': '14.0'}
+    {'customWidth': '1', 'min': '15', 'max': '15', 'width': '1.25'}
+R1 ht=9.0 customH: 
+R2 ht=37.5 customH: B2='SIIMON' | F2='DD#1   |   19-06-2026' | O2='60.0'
+R3 : B3='REGISSEUR' | F3='CREW' | J3='SCÈNES' | O3='30.0'
+R4 ht=15.0 customH: B4='X' | F4='0.375' | J4='2, 4' | O4='15.0'
+R5 : B5='D.O.P.' | F5='SHOOT' | J5='CAST'
+R6 ht=15.0 customH: B6='X' | F6='=$B$17' | J6='Moussa, Leonor' | O6='=IFERROR(MIN(IF(ISNUMBER(SEARCH("Moussa",N19:N42)),C19:C42,"")),"")'
+R7 : B7='FIRST AD' | F7='LUNCH' | J7='LOCATIE' | O7='=IFERROR(MIN(IF(ISNUMBER(SEARCH("Leonor",N19:N42)),C19:C42,"")),"")'
+R8 ht=15.0 customH: B8='Yassin van Veenendaal' | F8='=IFERROR(C27,"")' | J8='X'
+R9 : B9='ADRES' | F9='WRAP' | J9='LENGTE DRAAIDAG CREW'
+R10 ht=15.0 customH: B10='X' | F10='=IFERROR(D41,"")' | J10='0.4166666666666667'
+R11 : B11='SHOTS' | F11='LENGTE DRAAIDAG HEUVELAAR' | J11='LENGTE DRAAIDAG LUZA'
+R12 ht=15.0 customH: 
+R13 ht=15.75 customH: B13='TIJD' | C13='VAN' | D13='TOT' | E13='ACTIVITEIT'
+R14 ht=15.75 customH: B14='0.375' | E14='Crewcall'
+R15 ht=15.75 customH: C15='0.375' | D15='0.3854166666666667' | E15='Kick-off & (dans)repetitie'
+R16 ht=15.75 customH: C16='0.3854166666666667' | D16='=$B$17' | E16='Ronde plaat neerzetten\nLicht opbouw\n3 opties lichtgevende bal preppen'
+R17 ht=15.75 customH: B17='0.4375' | E17='Shooting call'
+R18 : B18='Tijd (min)' | C18='Van' | D18='Tot' | E18='Notes' | F18='Nr' | G18='Soort' | H18='Grip' | I18='Prop' | J18='VFX' | K18='Beschrijving' | L18='Sluis' | M18='Woord' | N18='Acteurs'
+R19 ht=42.75 customH: B19='0.0' | C19='=IF(B19="","",$B$17)' | D19='=IF(B19="","",C19+(B19/1440))[shared si=1 ref=D19:D41]' | E19='Scène 4\nINT. STUDIO\nRonde plaat' | G19='10:30-13:30' | H19='Synopsis'
+R20 : B20='0.0' | C20='=IF(B20="","",D19)[shared si=2 ref=C20:C41]' | D20='=[shared si=1 ref=None]' | I20='Ronde plaat: staat'
+R21 : B21='30.0' | C21='=[shared si=2 ref=None]' | D21='=[shared si=1 ref=None]' | E21='Effect: Flits/blur effect als \novergang ' | F21='4.1' | G21='Tot\nEye level' | H21='Statief' | I21='Ronde plaat: staat' | K21='Leonor staat silhouet voor de ronde plaat' | N21='Leonor'
+R22 : B22='30.0' | C22='=[shared si=2 ref=None]' | D22='=[shared si=1 ref=None]' | E22='Spelen met effecten' | F22='4.2' | G22='Med\nEye level' | H22='Statief' | I22='Ronde plaat: staat' | K22='Leonor staat silhouet voor de ronde plaat' | N22='Leonor'
+R23 : B23='30.0' | C23='=[shared si=2 ref=None]' | D23='=[shared si=1 ref=None]' | E23='Spelen met effecten' | F23='4.3' | G23='Close\nEye level' | H23='Statief' | I23='Ronde plaat: staat' | K23='Leonor staat silhouet voor de ronde plaat' | N23='Leonor'
+R24 : B24='30.0' | C24='=[shared si=2 ref=None]' | D24='=[shared si=1 ref=None]' | E24='Spelen met effecten' | F24='4.4' | G24='Med\nEye level' | H24='Statief' | I24='Ronde plaat: staat' | K24='Leonor staat voor de ronde plaat. \nwe schieten haar nu en profil aan.' | N24='Leonor'
+R25 ht=15.75 customH: B25='60.0' | C25='=[shared si=2 ref=None]' | D25='=[shared si=1 ref=None]' | E25='EXTRA BLOK LEONOR  \nextra shots met Leonor' | G25='(12:30-13:30)' | N25='Leonor'
+R26 ht=15.0 customH: B26='0.0' | C26='=[shared si=2 ref=None]' | D26='=[shared si=1 ref=None]' | E26='Est. wrap Leonor'
+R27 ht=15.0 customH: B27='45.0' | C27='=[shared si=2 ref=None]' | D27='=[shared si=1 ref=None]' | E27='LUNCH'
+R28 : B28='0.0' | C28='=[shared si=2 ref=None]' | D28='=[shared si=1 ref=None]' | E28='Scène 2\nINT. STUDIO\nDe bol' | G28='14:15-15:25' | H28='Synopsis'
+R29 ht=15.75 customH: B29='20.0' | C29='=[shared si=2 ref=None]' | D29='=[shared si=1 ref=None]' | E29='Ombouw: Bol'
+R30 : B30='20.0' | C30='=[shared si=2 ref=None]' | D30='=[shared si=1 ref=None]' | E30='Spellen met effecten en filters' | F30='2.8' | G30='Tot -> Med close\nEye level' | H30='Steadicam' | I30='Ballon ' | K30="We rijden in op de bol Steadicam, licht wordt feller en 'warmte effect wordt groter" | N30='geen acteurs'
+R31 : B31='30.0' | C31='=[shared si=2 ref=None]' | D31='=[shared si=1 ref=None]' | E31='Spellen met effecten en filters' | F31='2.9' | G31='Med - close\nEye level' | H31='Steadicam' | I31='Ballon' | K31='We rijden langs de ballon, snelle shots.' | N31='geen acteurs'
+R32 : B32='80.0' | C32='=[shared si=2 ref=None]' | D32='=[shared si=1 ref=None]' | E32='VOORBEREIDING MOUSSA PRIORITY BLOCK\nAlle Moussa-shots doorlopen, licht prep, chinabowl/bol/ronde plaat klaarzetten.\nMoussa arriveert 16:45.'
+R33 ht=15.75 customH: B33='15.0' | C33='=[shared si=2 ref=None]' | D33='=[shared si=1 ref=None]' | E33='Moussa omkleden  '
+R34 : B34='0.0' | C34='=[shared si=2 ref=None]' | D34='=[shared si=1 ref=None]' | E34='Scène 4\nINT. STUDIO\nPriority block Moussa' | G34='17:00-19:00' | H34='Synopsis'
+R35 : B35='25.0' | C35='=[shared si=2 ref=None]' | D35='=[shared si=1 ref=None]' | E35='Effect: take met glijmiddel\nNote: ook andere lichtinstelling\nVFX: Kilian foto sturen' | F35='2.1' | G35='Wijd\nLow' | H35='Steadicam' | I35='Ronde plaat: ligt' | J35='Statief met tennisbal' | K35='We lopen heel rustig op moussa af, \ncamera beweegt laag over de vloer. \nMoussa zit op de Ronde plaat' | N35='Moussa'
+R36 : B36='25.0' | C36='=[shared si=2 ref=None]' | D36='=[shared si=1 ref=None]' | E36='Note: ook andere lichtinstelling\nVFX: Kilian foto sturen' | F36='2.3' | G36='Close\nLow' | H36='Steadicam' | I36='Ronde plaat: ligt' | J36='Statief met tennisbal' | K36='Shots op: handen, voeten, gezicht, rug en haar' | N36='Moussa'
+R37 : B37='25.0' | C37='=[shared si=2 ref=None]' | D37='=[shared si=1 ref=None]' | E37='Effect: Weinig scherpte diepte \nzodat we de ballon vaag zien' | F37='2.5' | G37='med-close\nEye - level' | H37='Steadicam' | I37='Ballon' | K37='We rijden in op het gezicht van \nMoussa op de as, Moussa draait weg \nvan het licht en probeert weg te \nkomen. Camera draait met hem mee.' | N37='Moussa'
+R38 : B38='25.0' | C38='=[shared si=2 ref=None]' | D38='=[shared si=1 ref=None]' | E38='VFX: Kilian foto sturen' | F38='2.6' | G38='tot\nEye - level' | H38='Steadicam' | I38='Ballon ' | J38='Statief met tennisbal' | K38='Moussa links, Bol rechts ze komen \ndichterbij elkaar we rijden met een \ndutch angle in op de twee' | N38='Moussa'
+R39 : B39='20.0' | C39='=[shared si=2 ref=None]' | D39='=[shared si=1 ref=None]' | F39='4.8' | G39='Med close\nEye level -> Vogel' | H39='Steadicam' | I39='Ballon' | K39='Moussa aanschouwt wat er voor hem \ngebeurd. Het licht is fel waardoor hij \nnauwlijks kan zien wat er gebeurd. \nUiteindelijk stijgt Leonor op en we \nzien het licht hoger op zijn gezicht \nvallen.' | N39='Moussa'
+R40 ht=15.0 customH: B40='0.0' | C40='=[shared si=2 ref=None]' | D40='=[shared si=1 ref=None]' | E40='Est. wrap Moussa'
+R41 ht=15.0 customH: B41='0.0' | C41='=[shared si=2 ref=None]' | D41='=[shared si=1 ref=None]' | E41='WRAP'
+R42 ht=15.0 customH: B42='WRAP' | E42='WRAP' | H42='WRAP' | K42='WRAP'
+R43 ht=9.0 customH: 
+--- MERGES ---
+<ns0:mergeCells xmlns:ns0="http://schemas.openxmlformats.org/spreadsheetml/2006/main" count="39"><ns0:mergeCell ref="B2:E2" /><ns0:mergeCell ref="B3:E3" /><ns0:mergeCell ref="F3:I3" /><ns0:mergeCell ref="J3:N3" /><ns0:mergeCell ref="B4:E4" /><ns0:mergeCell ref="F4:I4" /><ns0:mergeCell ref="J4:N4" /><ns0:mergeCell ref="F7:I7" /><ns0:mergeCell ref="J7:N7" /><ns0:mergeCell ref="B5:E5" /><ns0:mergeCell ref="F5:I5" /><ns0:mergeCell ref="J5:N5" /><ns0:mergeCell ref="B6:E6" /><ns0:mergeCell ref="F6:I6" /><ns0:mergeCell ref="J6:N6" /><ns0:mergeCell ref="B7:E7" /><ns0:mergeCell ref="F10:I10" /><ns0:mergeCell ref="J10:N10" /><ns0:mergeCell ref="B8:E8" /><ns0:mergeCell ref="F8:I8" /><ns0:mergeCell ref="J8:N8" /><ns0:mergeCell ref="B9:E9" /><ns0:mergeCell ref="F9:I9" /><ns0:mergeCell ref="J9:N9" /><ns0:mergeCell ref="B10:E10" /><ns0:mergeCell ref="E14:N14" /><ns0:mergeCell ref="E15:N15" /><ns0:mergeCell ref="E16:N16" /><ns0:mergeCell ref="E17:N17" /><ns0:mergeCell ref="H19:N19" /><ns0:mergeCell ref="H28:N28" /><ns0:mergeCell ref="H34:N34" /><ns0:mergeCell ref="B11:E11" /><ns0:mergeCell ref="F11:I11" /><ns0:mergeCell ref="J11:N11" /><ns0:mergeCell ref="B12:E12" /><ns0:mergeCell ref="F12:I12" /><ns0:mergeCell ref="J12:N12" /><ns0:mergeCell ref="E13:N13" /></ns0:mergeCells>
